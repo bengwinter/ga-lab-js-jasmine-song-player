@@ -1,0 +1,9 @@
+var Player = function() {
+
+};
+
+Player.prototype.play = function(song) {
+    this.currentlyPlayingSong = song;
+    this.song = song;
+    this.isPlaying = true;
+};
